@@ -1,39 +1,82 @@
-# 二手交易管理系统SSM3
+# 二手交易管理系统SSM
 
-#### 介绍
+## 获取方式
+
+下方扫一下，回复项目关键词：**二手3**
+
+![image-20220509000010316](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202205281253739.png)
+
+## 1、项目介绍
+
 二手交易管理系统3拥有两个角色，分别为管理员和用户，具体功能如下：
+
 管理员：物品类型管理、物品管理、订单管理、用户管理
+
 用户：浏览物品，购买物品，搜索物品，发布物品，查看、修改个人信息，评论物品等
 
-#### 软件架构
-软件架构说明
+
+## 2、项目技术
+
+后端框架：SSM（Spring、SpringMVC、Mybatis）
+
+前端框架：Bootstrap、jsp、css、JavaScript、JQuery
+
+## 3、开发环境
+
+- JAVA版本：JDK1.8，其它版本理论上可以
+- IDE类型：IDEA、Eclipse、Myeclipse都可以。推荐IDEA与Eclipse
+- tomcat版本：Tomcat 7.x、8.x、9.x、10.x版本均可
+- 数据库版本：MySql 5.x
+- 硬件环境：Windows 或者 Mac OS
+- maven版本：无要求
 
 
-#### 安装教程
+## 4、功能介绍
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+### 4.1 登录
 
-#### 使用说明
+![用户登录](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220509151551.jpg)
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+![管理员登录](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220509151540.jpg)
 
-#### 参与贡献
+用户和管理员可以分别通过以上两个界面登录至系统
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+### 4.2 首页
 
+![首页](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220509151634.jpg)
 
-#### 特技
+用户可以在首页分类查看不同的商品，还可以通过搜索名称筛选物品
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+### 4.3 商品详情
+
+![商品详情](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220515104033.jpg)
+
+商品详情中，用户可以联系卖家，也可以直接购买商品，还可以评论商品。商品信息有图片展示、名称、价格等信息
+
+### 4.4 用户功能模块
+
+![用户个人界面](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220509151837.jpg)
+
+![用户修改个人信息](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220509151845.jpg)
+
+![用户注册](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220509151849.jpg)
+
+![用户发布商品](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220509151852.jpg)
+
+用户可以发布商品、查看和修改、注册个人信息，个人信息界面有自己发布的商品记录和订单记录，还可以查看收到的评论等信息
+
+### 4.5  管理员功能模块
+
+![管理员-订单管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220509152019.jpg)
+
+![管理员-物品管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220509152022.jpg)
+
+![管理员-物品类型管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220509152026.jpg)
+
+管理员你可以对物品、订单、用户、类型等进行查看、删除等操作
+
+## 5、获取方式
+
+下方扫一下，回复项目关键词：**二手3**
+
+![image-20220509000010316](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202205281253739.png)
